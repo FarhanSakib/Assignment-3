@@ -1,0 +1,11 @@
+/* google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* Custom style  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-dark {
+    filter: brightness(50%);
+}
