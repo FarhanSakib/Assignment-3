@@ -126,7 +126,7 @@
         </section>
         <!-- middle-text ends  -->
 
-        <!-- course cards start  -->
+        <!-- course cards and button start  -->
         <section class="course-section container mt-5">
             <div class="container my-5">
                 <div class="row">
@@ -233,8 +233,79 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <a class="btn text-white bg-primary py-sm-3 px-sm-4 fs-4" href="#" role="button">See More
+                        Courses</a>
+                </div>
             </div>
         </section>
+        <!-- course cards and button end  -->
+
+        <!-- Ready to join start  -->
+        <section class="container">
+            <div
+                class="container d-flex justify-content-around align-items-center flex-column flex-lg-row bg-primary rounded ">
+                <div class="text-center text-md-start m-auto ">
+                    <h2 class="fs-1 text-white lh-lg">
+                        Ready to join?
+                    </h2>
+                    <p class=" text-white lh-lg">
+                        It is a long established fact that a reader will be distracted by the <br>
+                        readable content of a page when looking at its layout.
+                    </p>
+
+                </div>
+                <!-- modal starts  -->
+                <div class="m-auto mt-lg-auto">
+                    <button type="button" class="btn course-starter-text-color text-primary btn btn-light"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register
+                        Now</button>
+
+
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">New Register</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Username:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">E-mail:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Password:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Confirm password:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal ends  -->
+            </div>
+        </section>
+        <!-- Ready to join end  -->
+
     </main>
 
 
