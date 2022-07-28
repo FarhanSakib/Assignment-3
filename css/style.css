@@ -9,3 +9,7 @@ body {
 .img-dark {
     filter: brightness(50%);
 }
+
+.course-starter-text-color {
+    color: #777777
+}
